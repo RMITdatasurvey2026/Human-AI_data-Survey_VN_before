@@ -10,11 +10,11 @@
     window.SURVEY_CONFIG = {
         storageKey:    'survey_ai_collab_vn_before',
         spreadsheetId: '',
-        orgBadge:        'VIN UNIVERSITY – RMIT VIETNAM',
+       // orgBadge:        'VIN UNIVERSITY – RMIT VIETNAM',
         headerTitle:     'KHẢO SÁT SỰ HỢP TÁC GIỮA CON NGƯỜI VÀ TRÍ TUỆ NHÂN TẠO TRONG DOANH NGHIỆP',
-        headerDetail:    'Khảo sát về Sự hợp tác giữa Con người và AI trong Môi trường Doanh nghiệp',
-        headerSubtitle:  'Chúng tôi là nhóm nghiên cứu đến từ VinUniversity và RMIT University Vietnam. Mời Anh/Chị điền vào bảng câu hỏi sau. Phản hồi của Anh/Chị là vô cùng quan trọng đối với chúng tôi.',
-        banner:          'human-and-AI-collaboration_EDIT.jpg',
+     //   headerDetail:    'Khảo sát về Sự hợp tác giữa Con người và AI trong Môi trường Doanh nghiệp',
+      //  headerSubtitle:  'Chúng tôi là nhóm nghiên cứu đến từ VinUniversity và RMIT University Vietnam. Mời Anh/Chị điền vào bảng câu hỏi sau. Phản hồi của Anh/Chị là vô cùng quan trọng đối với chúng tôi.',
+        banner:          'human-and-AI-collaboration_EDIT.JPG',
         showEmail:                true,
         requireEmail:             true,
         emailLabel:               'Email:',
@@ -28,7 +28,7 @@
         showCustomQuestionsAdmin: true,
         requireConsent:           true,
         submitLabel:   '✓  Gửi KHẢO SÁT',
-        thankYouTitle: 'CẢM ƠN ANH/CHỊ RẤT NHIỀU!',
+        thankYouTitle: 'CHÂN THÀNH CẢM ƠN CÁC ANH/CHỊ ĐÃ ĐÓNG GÓP QUAN TRỌNG VÀO NGHIÊN CỨU CỦA CHÚNG TÔI!',
         thankYouBody:  'Phản hồi của bạn đã được ghi nhận thành công.<br>Dữ liệu sẽ được sử dụng phục vụ nghiên cứu.',
         introBox: {
             title: 'PHẦN I: GIỚI THIỆU NGHIÊN CỨU VÀ BỐI CẢNH',
@@ -45,7 +45,7 @@
              questions:[
               {id:'q_info_1',required:true,text:'Giới tính',type:'radio',layout:3,
                options:[{value:'Nam',label:'Nam'},{value:'Nữ',label:'Nữ'},{value:'Khác',label:'Khác'}]},
-              {id:'q_info_2',required:true,text:'Độ tuổi',type:'number',min:18,step:1,placeholder:'Ví dụ: 25 (tối thiểu 18)'},
+              {id:'q_info_2',required:true,text:'Năm sinh',type:'number',min:1950, max:2008,step:1,placeholder:'Ví dụ: 1998 (từ 1950 đến 2008)'},
               {id:'q_info_3',required:true,text:'Chức vụ hiện tại của Anh/Chị trong tổ chức là gì?',type:'radio',layout:3,
                options:[
                 {value:'Giám đốc điều hành (CEO)',label:'Giám đốc điều hành (CEO)'},
