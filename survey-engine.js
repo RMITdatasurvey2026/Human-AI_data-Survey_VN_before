@@ -216,7 +216,8 @@ body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:var(--bg
   .se-header h1{font-size:15px;}
   .se-section-body{padding:16px;}
   .se-likert{flex-wrap:wrap;padding-left:0;}
-  .se-likert .lk-end.left,.se-likert .lk-end.right{min-width:auto;width:100%;text-align:left;padding:0 0 4px;}
+  .se-likert .lk-end.left{min-width:auto;width:100%;text-align:left;padding:0 0 4px;}
+  .se-likert .lk-end.right{min-width:auto;width:100%;text-align:right;padding:4px 0 0;}
   .se-options{padding-left:0;}
   .se-options.cols-3,.se-options.cols-4{grid-template-columns:repeat(2,1fr);}
   .se-options.cols-2{grid-template-columns:1fr;}
